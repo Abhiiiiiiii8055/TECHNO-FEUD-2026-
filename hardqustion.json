@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "question": "Name a common cybersecurity threat.",
+    "options": ["Phishing", "Malware", "Ransomware", "DDoS attack", "Data breach", "Spyware"]
+  },
+  {
+    "id": 2,
+    "question": "Name a data structure used in programming.",
+    "options": ["Array", "Linked List", "Stack", "Queue", "Tree", "Graph"]
+  },
+  {
+    "id": 3,
+    "question": "Name a database management system.",
+    "options": ["MySQL", "Oracle", "SQL Server", "MongoDB", "PostgreSQL", "SQLite"]
+  },
+  {
+    "id": 4,
+    "question": "Name a version control tool.",
+    "options": ["Git", "GitHub", "GitLab", "Bitbucket", "SVN", "Mercurial"]
+  },
+  {
+    "id": 5,
+    "question": "Name a software development methodology.",
+    "options": ["Agile", "Waterfall", "Scrum", "DevOps", "Spiral", "Kanban"]
+  },
+  {
+    "id": 6,
+    "question": "Name a networking protocol.",
+    "options": ["HTTP", "HTTPS", "FTP", "TCP/IP", "SMTP", "DNS"]
+  },
+  {
+    "id": 7,
+    "question": "Name a type of cyber attack.",
+    "options": ["Phishing", "SQL Injection", "MITM", "Ransomware", "DDoS", "XSS"]
+  },
+  {
+    "id": 8,
+    "question": "Name a frontend JavaScript framework/library.",
+    "options": ["React", "Angular", "Vue", "Svelte", "Next.js", "Ember"]
+  },
+  {
+    "id": 9,
+    "question": "Name a backend programming language.",
+    "options": ["Java", "Python", "Node.js", "PHP", "C#", "Ruby"]
+  },
+  {
+    "id": 10,
+    "question": "Name a data analysis tool.",
+    "options": ["Excel", "Python", "R", "Tableau", "Power BI", "SAS"]
+  },
+  {
+    "id": 11,
+    "question": "Name a machine learning algorithm.",
+    "options": ["Linear Regression", "Decision Tree", "KNN", "SVM", "Neural Network", "Naive Bayes"]
+  },
+  {
+    "id": 12,
+    "question": "Name an operating system.",
+    "options": ["Windows", "Linux", "macOS", "Android", "iOS", "Unix"]
+  },
+  {
+    "id": 13,
+    "question": "Name a cloud service provider.",
+    "options": ["AWS", "Azure", "Google Cloud", "IBM Cloud", "Oracle Cloud", "Alibaba Cloud"]
+  },
+  {
+    "id": 14,
+    "question": "Name a popular Linux distribution.",
+    "options": ["Ubuntu", "Fedora", "Debian", "Kali Linux", "Arch Linux", "CentOS"]
+  },
+  {
+    "id": 15,
+    "question": "Name a database query language.",
+    "options": ["SQL", "PL/SQL", "T-SQL", "MySQL", "NoSQL", "SQLite"]
+  },
+  {
+    "id": 16,
+    "question": "Name a concept used in AI.",
+    "options": ["Machine Learning", "Neural Networks", "NLP", "Deep Learning", "Computer Vision", "Reinforcement Learning"]
+  },
+  {
+    "id": 17,
+    "question": "Name a tool used for API testing.",
+    "options": ["Postman", "Swagger", "SoapUI", "Insomnia", "JMeter", "REST Assured"]
+  },
+  {
+    "id": 18,
+    "question": "Name a networking model.",
+    "options": ["OSI Model", "TCP/IP Model", "Application Layer", "Transport Layer", "Network Layer", "Data Link Layer"]
+  },
+  {
+    "id": 19,
+    "question": "Name a mobile app development framework.",
+    "options": ["Flutter", "React Native", "Swift", "Kotlin", "Xamarin", "Ionic"]
+  },
+  {
+    "id": 20,
+    "question": "Name a DevOps tool.",
+    "options": ["Jenkins", "Docker", "Kubernetes", "Git", "Ansible", "Terraform"]
+  },
+  {
+    "id": 21,
+    "question": "Name a type of cybercrime.",
+    "options": ["Identity theft", "Phishing", "Hacking", "Fraud", "Cyberbullying", "Online scams"]
+  },
+  {
+    "id": 22,
+    "question": "Name a UI/UX design tool.",
+    "options": ["Figma", "Adobe XD", "Sketch", "Canva", "InVision", "Framer"]
+  },
+  {
+    "id": 23,
+    "question": "Name a type of server.",
+    "options": ["Web server", "Database server", "Application server", "File server", "Mail server", "Proxy server"]
+  },
+  {
+    "id": 24,
+    "question": "Name a cloud storage service.",
+    "options": ["Google Drive", "Dropbox", "OneDrive", "iCloud", "AWS S3", "Mega"]
+  },
+  {
+    "id": 25,
+    "question": "Name an email protocol.",
+    "options": ["SMTP", "POP3", "IMAP", "TLS", "SSL", "MAPI"]
+  },
+  {
+    "id": 26,
+    "question": "Name a popular API format.",
+    "options": ["JSON", "XML", "REST", "SOAP", "GraphQL", "YAML"]
+  },
+  {
+    "id": 27,
+    "question": "Name a sorting algorithm.",
+    "options": ["Bubble Sort", "Quick Sort", "Merge Sort", "Insertion Sort", "Selection Sort", "Heap Sort"]
+  },
+  {
+    "id": 28,
+    "question": "Name a process state in OS.",
+    "options": ["New", "Ready", "Running", "Waiting", "Terminated", "Suspended"]
+  },
+  {
+    "id": 29,
+    "question": "Name a searching algorithm.",
+    "options": ["Linear Search", "Binary Search", "DFS", "BFS", "Interpolation Search", "Jump Search"]
+  },
+  {
+    "id": 30,
+    "question": "Name a testing technique.",
+    "options": ["Unit Testing", "Integration Testing", "System Testing", "Regression Testing", "Black Box Testing", "White Box Testing"]
+  },
+  {
+    "id": 31,
+    "question": "Name a tree traversal method.",
+    "options": ["Inorder", "Preorder", "Postorder", "Level Order", "Reverse Inorder", "Zigzag"]
+  },
+  {
+    "id": 32,
+    "question": "Name a reason apps collect user data.",
+    "options": ["Personalization", "Ads", "Analytics", "Improve services", "Verification", "Recommendations"]
+  },
+  {
+    "id": 33,
+    "question": "Name a reason websites use HTTPS.",
+    "options": ["Encryption", "Security", "Data protection", "Prevent hacking", "Secure transactions", "Trust"]
+  },
+  {
+    "id": 34,
+    "question": "Name a background process that consumes battery.",
+    "options": ["Background apps", "Location services", "Bluetooth", "Wi-Fi scan", "Notification sync", "Auto updates"]
+  },
+  {
+    "id": 35,
+    "question": "Name a security risk installing third-party apps.",
+    "options": ["Malware", "Data theft", "Spyware", "Virus", "Unauthorized access", "Ransomware"]
+  },
+  {
+    "id": 36,
+    "question": "Name a type of IP address.",
+    "options": ["IPv4", "IPv6", "Public IP", "Private IP", "Static IP", "Dynamic IP"]
+  },
+  {
+    "id": 37,
+    "question": "Name a real-world ML application.",
+    "options": ["Recommendation system", "Face recognition", "Spam detection", "Voice assistant", "Chatbot", "Predictive text"]
+  },
+  {
+    "id": 38,
+    "question": "Name a type of phishing attack.",
+    "options": ["Email phishing", "Smishing", "Spear phishing", "Vishing", "Fake website", "Clone phishing"]
+  },
+  {
+    "id": 39,
+    "question": "Name a type of digital footprint.",
+    "options": ["Social posts", "Search history", "Online transactions", "Comments", "Cookies", "Location history"]
+  },
+  {
+    "id": 40,
+    "question": "Name a password cracking tool.",
+    "options": ["John the Ripper", "L0phtCrack", "THC Hydra", "Hashcat", "Cain and Abel", "Aircrack-ng"]
+  },
+  {
+    "id": 41,
+    "question": "Name a common type of malware.",
+    "options": ["Virus", "Trojan", "Worm", "Spyware", "Adware", "Ransomware"]
+  },
+  {
+    "id": 42,
+    "question": "Name a method hackers use to steal credentials.",
+    "options": ["Phishing", "Keylogging", "Brute force", "Social engineering", "Fake login page", "Credential stuffing"]
+  }
+]
