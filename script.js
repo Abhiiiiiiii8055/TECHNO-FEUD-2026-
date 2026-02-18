@@ -6,29 +6,25 @@
  */
 
 // --- Global Game State ---
-let currentDifficulty = 'easy'; // Default difficulty
 let currentQuestionIndex = 0;   // Track current position in the question array
-let questions = {
-    easy: [],
-    hard: []
-};
+let questions = []; // Single array for all questions
 
 // --- DOM Elements ---
 const questionText = document.getElementById('question-text');
 const optionsGrid = document.getElementById('options-grid');
-const easyBtn = document.getElementById('easy-btn');
-const hardBtn = document.getElementById('hard-btn');
+// Difficulty buttons removed
 const prevBtn = document.getElementById('prev-btn');
 const nextBtn = document.getElementById('next-btn');
 const flipAllBtn = document.getElementById('flip-all-btn');
-const counterLabel = document.getElementById('question-counter');
+// const counterLabel = document.getElementById('question-counter'); // Removed
 
 // --- Point Distribution ---
 /**
- * Points are assigned in descending order based on popularity.
- * The first item in the options array gets the highest points.
+ * Points are assigned based on the option's position.
+ * Option 1 gets 6 points, Option 2 gets 5 points, etc.
  */
-const pointsArray = [98, 85, 72, 64, 51, 42, 33, 25, 18, 12];
+// const pointsArray = [98, 85, 72, 64, 51, 42, 33, 25, 18, 12]; // Old scoring
+
 
 /**
  * Initialize the game by fetching JSON data and setting up listeners.
@@ -43,17 +39,20 @@ async function init() {
 
         if (!easyRes.ok || !hardRes.ok) throw new Error('Network response was not ok');
 
-        questions.easy = await easyRes.json();
-        questions.hard = await hardRes.json();
+        const easyQuestions = await easyRes.json();
+        const hardQuestions = await hardRes.json();
 
-        // SORTING: Ensure questions are strictly ordered by their ID
-        questions.easy.sort((a, b) => a.id - b.id);
-        questions.hard.sort((a, b) => a.id - b.id);
+        // MERGING: Combine easy and hard questions into one list
+        // RE-INDEXING: Assign new sequential IDs to ensure strict ordering
+        questions = [...easyQuestions, ...hardQuestions].map((q, index) => ({
+            ...q,
+            id: index + 1 // Overwrite original ID with new sequential ID
+        }));
 
         renderQuestion();
         setupEventListeners();
 
-        console.log('Techno Feud 2026 Initialized Successfully.');
+        console.log('Techno Feud 2026 Initialized Successfully. Total Questions:', questions.length);
     } catch (error) {
         console.error('Failed to load questions:', error);
         questionText.textContent = 'Error: Make sure you are running via a local server (http://).';
@@ -65,8 +64,7 @@ async function init() {
  * Implements a fade-out/fade-in transition for smooth visuals.
  */
 async function renderQuestion() {
-    const currentQuestions = questions[currentDifficulty];
-    const question = currentQuestions[currentQuestionIndex];
+    const question = questions[currentQuestionIndex];
 
     if (!question) return;
 
@@ -86,13 +84,8 @@ async function renderQuestion() {
          * The grid will automatically scale based on the number of options.
          */
         question.options.forEach((opt, index) => {
-            // Assign points based on the index (Descending popularity)
-            let points;
-            if (index < pointsArray.length) {
-                points = pointsArray[index];
-            } else {
-                points = Math.max(5, 10 - (index - pointsArray.length)); // Handle extra options
-            }
+            // Assign points: 6 for 1st, 5 for 2nd, etc.
+            let points = Math.max(0, 6 - index);
 
             // Create the individual card element
             const card = document.createElement('div');
@@ -121,9 +114,9 @@ async function renderQuestion() {
         });
 
         // Update footer stats and button disabled states
-        counterLabel.textContent = `Question ${currentQuestionIndex + 1} / ${currentQuestions.length}`;
+        // counterLabel.textContent = `Question ${currentQuestionIndex + 1} / ${questions.length}`; // Removed
         prevBtn.disabled = currentQuestionIndex === 0;
-        nextBtn.disabled = currentQuestionIndex === currentQuestions.length - 1;
+        nextBtn.disabled = currentQuestionIndex === questions.length - 1;
     }, 300); // Wait for fade-out animation to finish
 }
 
@@ -131,10 +124,6 @@ async function renderQuestion() {
  * Set up all interactive event listeners.
  */
 function setupEventListeners() {
-    // Difficulty switching
-    easyBtn.addEventListener('click', () => setDifficulty('easy'));
-    hardBtn.addEventListener('click', () => setDifficulty('hard'));
-
     // Navigation buttons
     prevBtn.addEventListener('click', () => {
         if (currentQuestionIndex > 0) {
@@ -144,8 +133,7 @@ function setupEventListeners() {
     });
 
     nextBtn.addEventListener('click', () => {
-        const currentQuestions = questions[currentDifficulty];
-        if (currentQuestionIndex < currentQuestions.length - 1) {
+        if (currentQuestionIndex < questions.length - 1) {
             currentQuestionIndex++;
             renderQuestion();
         }
@@ -169,21 +157,6 @@ function setupEventListeners() {
         if (e.key === 'ArrowRight' && !nextBtn.disabled) nextBtn.click();
         if (e.key === 'ArrowLeft' && !prevBtn.disabled) prevBtn.click();
     });
-}
-
-/**
- * Handle difficulty state changes.
- */
-function setDifficulty(diff) {
-    if (currentDifficulty === diff) return;
-    currentDifficulty = diff;
-    currentQuestionIndex = 0; // Reset to start when switching difficulty
-
-    // UI active state toggle
-    easyBtn.classList.toggle('active', diff === 'easy');
-    hardBtn.classList.toggle('active', diff === 'hard');
-
-    renderQuestion();
 }
 
 // Global Entry Point
