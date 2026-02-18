@@ -1,42 +1,246 @@
 [
   {
     "id": 1,
-    "question": "Name a programming language used for web development.",
+    "question": "Name a programming language.",
     "options": [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "PHP",
       "Python",
-      "TypeScript"
+      "Java",
+      "C",
+      "C++",
+      "JavaScript",
+      "PHP"
     ]
   },
   {
     "id": 2,
-    "question": "Name a reason a laptop becomes slow.",
+    "question": "Name a common computer problem.",
     "options": [
-      "Low RAM",
+      "Slow speed",
       "Virus",
+      "Hanging",
       "Storage full",
-      "Old hardware",
-      "Too many background apps",
+      "Low RAM",
       "Overheating"
     ]
   },
   {
     "id": 3,
-    "question": "Name a feature students check before buying a laptop.",
+    "question": "Name a web browser.",
     "options": [
-      "Price",
-      "Processor",
-      "RAM",
-      "Storage",
-      "Battery life",
-      "Brand"
+      "Google Chrome",
+      "Mozilla Firefox",
+      "Microsoft Edge",
+      "Opera",
+      "Brave",
+      "Safari"
     ]
   },
   {
     "id": 4,
+    "question": "Name a messaging app.",
+    "options": [
+      "WhatsApp",
+      "Telegram",
+      "Signal",
+      "Messenger",
+      "Snapchat",
+      "Instagram"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Name an Indian startup in the tech sector.",
+    "options": [
+      "Ola",
+      "boAt",
+      "Razorpay",
+      "Unacademy",
+      "Flipkart",
+      "Paytm"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Name a reason phone battery drains quickly.",
+    "options": [
+      "Gaming",
+      "High brightness",
+      "Background apps",
+      "GPS on",
+      "Social media",
+      "Old battery"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Name a reason students use AI tools.",
+    "options": [
+      "Assignments",
+      "Coding help",
+      "Quick answers",
+      "Learning",
+      "Idea generation",
+      "Saving time"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Name a common keyboard shortcut.",
+    "options": [
+      "Ctrl + C",
+      "Ctrl + V",
+      "Ctrl + S",
+      "Ctrl + Z",
+      "Ctrl + A",
+      "Ctrl + X"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Name something people post on Instagram.",
+    "options": [
+      "Selfies",
+      "Reels",
+      "Stories",
+      "Memes",
+      "Travel photos",
+      "Food pics"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Which is the most used messaging app in India?",
+    "options": [
+      "WhatsApp",
+      "Telegram",
+      "Instagram",
+      "Signal",
+      "Facebook Messenger",
+      "Snapchat"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Name a reason apps crash.",
+    "options": [
+      "Bugs",
+      "Low memory",
+      "Outdated version",
+      "Overheating",
+      "Corrupted files",
+      "Too many apps"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Name something students search before exams.",
+    "options": [
+      "Important questions",
+      "Notes",
+      "Previous papers",
+      "Syllabus",
+      "Answers",
+      "Last-minute revision"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Name a reason Wi-Fi becomes slow.",
+    "options": [
+      "Too many users",
+      "Network problem",
+      "Distance from router",
+      "Signal blockage",
+      "Router issue",
+      "Data limit"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Name a feature students check before buying a phone.",
+    "options": [
+      "Price",
+      "Camera",
+      "Battery",
+      "Storage",
+      "Display",
+      "Performance"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Which is the most popular smartphone brand in India?",
+    "options": [
+      "Samsung",
+      "Xiaomi",
+      "Apple",
+      "Vivo",
+      "Oppo",
+      "Realme"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Name a reason people restart their laptop.",
+    "options": [
+      "Hanging",
+      "Software update",
+      "Slow performance",
+      "App crash",
+      "Free memory",
+      "Fix error"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Name a reason people use cloud storage.",
+    "options": [
+      "Backup",
+      "Easy sharing",
+      "Access anywhere",
+      "Storage expansion",
+      "Free space",
+      "Safe storage"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Name a feature students check before installing apps.",
+    "options": [
+      "Ratings",
+      "Reviews",
+      "App size",
+      "Permissions",
+      "Downloads",
+      "Updates"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Name a reason people avoid public Wi-Fi.",
+    "options": [
+      "Security risk",
+      "Hacking fear",
+      "Data theft",
+      "Unsafe network",
+      "Privacy concern",
+      "Data misuse"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Which is the most popular online shopping app in India?",
+    "options": [
+      "Amazon",
+      "Flipkart",
+      "Meesho",
+      "Myntra",
+      "Ajio",
+      "Snapdeal"
+    ]
+  },
+  {
+    "id": 21,
     "question": "Name a reason students prefer PDFs over books.",
     "options": [
       "Portable",
@@ -44,1119 +248,231 @@
       "Search option",
       "Free availability",
       "Lightweight",
-      "Eco-friendly"
+      "Easy download"
     ]
   },
   {
-    "id": 5,
-    "question": "Name a common cybersecurity threat.",
-    "options": [
-      "Phishing",
-      "Malware",
-      "Ransomware",
-      "DDoS attack",
-      "Data breach",
-      "Spyware"
-    ]
-  },
-  {
-    "id": 6,
+    "id": 22,
     "question": "Name a tech issue during online exams.",
     "options": [
       "Internet drop",
       "System crash",
       "Login issue",
       "Power cut",
-      "Server down",
-      "Browser error"
+      "Server error",
+      "Webcam issue"
     ]
   },
   {
-    "id": 7,
+    "id": 23,
     "question": "Name a tool used for collaborative work.",
     "options": [
       "Google Docs",
       "Microsoft Teams",
       "GitHub",
       "Zoom",
-      "Slack",
-      "Notion"
-    ]
-  },
-  {
-    "id": 8,
-    "question": "Name a reason students like hackathons.",
-    "options": [
-      "Learning",
-      "Prizes",
-      "Teamwork",
-      "Certificates",
-      "Networking",
-      "Real-world experience"
-    ]
-  },
-  {
-    "id": 9,
-    "question": "What are some bad habits students should leave behind?",
-    "options": [
-      "Skipping sleep",
-      "Copy-pasting assignments",
-      "Notification addiction",
-      "Avoiding difficult tasks",
-      "Procrastination",
-      "Poor time management"
-    ]
-  },
-  {
-    "id": 10,
-    "question": "Name a data structure used in programming.",
-    "options": [
-      "Array",
-      "Linked List",
-      "Stack",
-      "Queue",
-      "Tree",
-      "Graph"
-    ]
-  },
-  {
-    "id": 11,
-    "question": "What are the main reasons students use AI tools?",
-    "options": [
-      "Assignments",
-      "Learning concepts",
-      "Coding help",
-      "Saving time",
-      "Research",
-      "Idea generation"
-    ]
-  },
-  {
-    "id": 12,
-    "question": "Name a reason students avoid coding contests.",
-    "options": [
-      "Fear of failure",
-      "Lack of preparation",
-      "Tough questions",
-      "Time pressure",
-      "Low confidence",
-      "No practice"
-    ]
-  },
-  {
-    "id": 13,
-    "question": "Name a tech issue during presentations.",
-    "options": [
-      "Projector issue",
-      "File not opening",
-      "HDMI issue",
-      "Laptop hang",
-      "Audio problem",
-      "Compatibility issue"
-    ]
-  },
-  {
-    "id": 14,
-    "question": "Name a reason students like dark mode.",
-    "options": [
-      "Eye comfort",
-      "Saves battery",
-      "Looks cool",
-      "Night usage",
-      "Reduces glare",
-      "Better focus"
-    ]
-  },
-  {
-    "id": 15,
-    "question": "Name a database management system.",
-    "options": [
-      "MySQL",
-      "Oracle",
-      "SQL Server",
-      "MongoDB",
-      "PostgreSQL",
-      "SQLite"
-    ]
-  },
-  {
-    "id": 16,
-    "question": "Name a browser students commonly use.",
-    "options": [
-      "Google Chrome",
-      "Microsoft Edge",
-      "Brave",
-      "Firefox",
-      "Safari",
-      "Opera"
-    ]
-  },
-  {
-    "id": 17,
-    "question": "Name a reason apps crash.",
-    "options": [
-      "Low memory",
-      "Bugs",
-      "Outdated version",
-      "Overheating",
-      "Software conflict",
-      "Corrupt files"
-    ]
-  },
-  {
-    "id": 18,
-    "question": "Name a tech skill students want on resume.",
-    "options": [
-      "Programming",
-      "Web development",
-      "AI/ML",
-      "Cybersecurity",
-      "Data Science",
-      "Cloud computing"
-    ]
-  },
-  {
-    "id": 19,
-    "question": "Name a reason students like auto working tools.",
-    "options": [
-      "Saves time",
-      "Reduces effort",
-      "Increases productivity",
-      "Minimizes errors",
-      "Automation",
-      "Faster results"
-    ]
-  },
-  {
-    "id": 20,
-    "question": "Name a version control tool.",
-    "options": [
-      "Git",
-      "GitHub",
-      "GitLab",
-      "Bitbucket",
-      "SVN",
-      "Mercurial"
-    ]
-  },
-  {
-    "id": 21,
-    "question": "Name a tech issue during hackathons.",
-    "options": [
-      "Internet problem",
-      "System crash",
-      "Lack of time",
-      "Team coordination",
-      "Software errors",
-      "Power issue"
-    ]
-  },
-  {
-    "id": 22,
-    "question": "Name a reason students use cloud storage.",
-    "options": [
-      "Backup",
-      "Easy sharing",
-      "Access anywhere",
-      "Storage expansion",
-      "Safety",
-      "Sync across devices"
-    ]
-  },
-  {
-    "id": 23,
-    "question": "Name a feature students want in college portals.",
-    "options": [
-      "Fast loading",
-      "Updated info",
-      "Simple UI",
-      "Mobile friendly",
-      "Notifications",
-      "Online payment"
+      "Discord",
+      "Google Meet"
     ]
   },
   {
     "id": 24,
-    "question": "Name a tech issue during file uploads.",
+    "question": "Name a reason students like hackathons.",
     "options": [
-      "Slow internet",
-      "File size limit",
-      "Format error",
-      "Upload failure",
-      "Timeout",
-      "Server error"
+      "Learning",
+      "Teamwork",
+      "Networking",
+      "Prizes",
+      "Certificates",
+      "Fun"
     ]
   },
   {
     "id": 25,
-    "question": "Name a software development methodology.",
+    "question": "Which is the most popular gaming app in India?",
     "options": [
-      "Agile",
-      "Waterfall",
-      "Scrum",
-      "DevOps",
-      "Spiral",
-      "Kanban"
+      "Free Fire",
+      "BGMI",
+      "Call of Duty Mobile",
+      "Clash of Clans",
+      "PUBG Mobile",
+      "Ludo King"
     ]
   },
   {
     "id": 26,
-    "question": "Name a reason students prefer messaging over email.",
-    "options": [
-      "Faster replies",
-      "Informal",
-      "Instant notifications",
-      "Group chats",
-      "Easy access",
-      "Quick file sharing"
-    ]
-  },
-  {
-    "id": 27,
-    "question": "Name a reason students like open-source software.",
-    "options": [
-      "Free",
-      "Customizable",
-      "Community support",
-      "Learning opportunity",
-      "Transparency",
-      "No license cost"
-    ]
-  },
-  {
-    "id": 28,
-    "question": "Name a feature students want improved in laptops.",
-    "options": [
-      "Battery life",
-      "Performance",
-      "Cooling",
-      "Storage",
-      "Weight",
-      "Display quality"
-    ]
-  },
-  {
-    "id": 29,
-    "question": "Name a feature students want in project management tools.",
-    "options": [
-      "Task tracking",
-      "Deadlines",
-      "Team chat",
-      "File sharing",
-      "Notifications",
-      "Reports"
-    ]
-  },
-  {
-    "id": 30,
-    "question": "Name a networking protocol.",
-    "options": [
-      "HTTP",
-      "HTTPS",
-      "FTP",
-      "TCP/IP",
-      "SMTP",
-      "DNS"
-    ]
-  },
-  {
-    "id": 31,
-    "question": "Name a reason students like collaborative coding.",
-    "options": [
-      "Team learning",
-      "Faster solutions",
-      "Idea sharing",
-      "Debugging help",
-      "Motivation",
-      "Skill improvement"
-    ]
-  },
-  {
-    "id": 32,
-    "question": "Name a reason students like short video tutorials.",
-    "options": [
-      "Quick learning",
-      "Saves time",
-      "Focused content",
-      "Easy understanding",
-      "Revision",
-      "Portable learning"
-    ]
-  },
-  {
-    "id": 33,
-    "question": "Name a tech issue during online interviews.",
-    "options": [
-      "Network lag",
-      "Mic issue",
-      "Camera problem",
-      "App crash",
-      "Nervousness",
-      "Background noise"
-    ]
-  },
-  {
-    "id": 34,
-    "question": "Name a reason students join tech clubs.",
-    "options": [
-      "Skill development",
-      "Networking",
-      "Leadership",
-      "Event participation",
-      "Experience",
-      "Resume building"
-    ]
-  },
-  {
-    "id": 35,
-    "question": "Name a type of cyber attack.",
-    "options": [
-      "Phishing",
-      "SQL Injection",
-      "MITM",
-      "Ransomware",
-      "DDoS",
-      "XSS"
-    ]
-  },
-  {
-    "id": 36,
-    "question": "Name a reason students use YouTube for study.",
-    "options": [
-      "Free tutorials",
-      "Easy explanation",
-      "Visual learning",
-      "Exam prep",
-      "Doubt solving",
-      "Practical demos"
-    ]
-  },
-  {
-    "id": 37,
-    "question": "Name a reason students prefer typing notes.",
-    "options": [
-      "Faster",
-      "Easy editing",
-      "Neatness",
-      "Search option",
-      "Easy sharing",
-      "Backup"
-    ]
-  },
-  {
-    "id": 38,
-    "question": "Name a tech improvement students want in campus.",
-    "options": [
-      "Better Wi-Fi",
-      "Charging stations",
-      "Smart classrooms",
-      "Online attendance",
-      "Faster portals",
-      "Digital library"
-    ]
-  },
-  {
-    "id": 39,
-    "question": "Name a feature students check before installing apps.",
-    "options": [
-      "Ratings",
-      "Reviews",
-      "App size",
-      "Permissions",
-      "Developer name",
-      "Downloads"
-    ]
-  },
-  {
-    "id": 40,
-    "question": "Name a frontend JavaScript framework/library.",
-    "options": [
-      "React",
-      "Angular",
-      "Vue",
-      "Svelte",
-      "Next.js",
-      "Ember"
-    ]
-  },
-  {
-    "id": 41,
-    "question": "Name a tech issue during data transfer.",
-    "options": [
-      "Slow speed",
-      "File corruption",
-      "Storage full",
-      "Compatibility issue",
-      "Connection loss",
-      "Format mismatch"
-    ]
-  },
-  {
-    "id": 42,
-    "question": "Name an app students open first after waking up.",
-    "options": [
-      "WhatsApp",
-      "Instagram",
-      "Alarm",
-      "YouTube",
-      "Snapchat",
-      "Email"
-    ]
-  },
-  {
-    "id": 43,
-    "question": "Name a reason phone battery drains quickly.",
-    "options": [
-      "Social media",
-      "Gaming",
-      "Background apps",
-      "High brightness",
-      "Old battery",
-      "GPS usage"
-    ]
-  },
-  {
-    "id": 44,
-    "question": "Name something people check before buying a phone.",
-    "options": [
-      "Camera",
-      "Battery",
-      "Price",
-      "Storage",
-      "Brand",
-      "Processor"
-    ]
-  },
-  {
-    "id": 45,
-    "question": "Name a backend programming language.",
-    "options": [
-      "Java",
-      "Python",
-      "Node.js",
-      "PHP",
-      "C#",
-      "Ruby"
-    ]
-  },
-  {
-    "id": 46,
-    "question": "Name an app that wastes most time.",
-    "options": [
-      "Instagram",
-      "YouTube",
-      "Reels",
-      "Games",
-      "Snapchat",
-      "Facebook"
-    ]
-  },
-  {
-    "id": 47,
-    "question": "Name something people panic about when phone is lost.",
-    "options": [
-      "Data",
-      "Photos",
-      "Contacts",
-      "OTP access",
-      "Social media",
-      "Bank apps"
-    ]
-  },
-  {
-    "id": 48,
-    "question": "Name a reason Wi-Fi becomes slow.",
-    "options": [
-      "Too many users",
-      "Router issue",
-      "Network problem",
-      "Low bandwidth",
-      "Signal blockage",
-      "ISP issue"
-    ]
-  },
-  {
-    "id": 49,
-    "question": "Name something people Google every day.",
-    "options": [
-      "Answers",
-      "News",
-      "Definitions",
-      "Locations",
-      "Error solutions",
-      "Weather"
-    ]
-  },
-  {
-    "id": 50,
-    "question": "Name a data analysis tool.",
-    "options": [
-      "Excel",
-      "Python",
-      "R",
-      "Tableau",
-      "Power BI",
-      "SAS"
-    ]
-  },
-  {
-    "id": 51,
-    "question": "Name a reason people restart laptop.",
-    "options": [
-      "Hanging",
-      "Software update",
-      "Slow performance",
-      "App crash",
-      "Network reset",
-      "Bug fix"
-    ]
-  },
-  {
-    "id": 52,
-    "question": "Name a common keyboard shortcut students use.",
-    "options": [
-      "Ctrl+C",
-      "Ctrl+V",
-      "Ctrl+Z",
-      "Ctrl+S",
-      "Alt+Tab",
-      "Ctrl+X"
-    ]
-  },
-  {
-    "id": 53,
-    "question": "Name something students search before exams.",
-    "options": [
-      "Important questions",
-      "Previous papers",
-      "Answers",
-      "Syllabus",
-      "Passing marks",
-      "Exam pattern"
-    ]
-  },
-  {
-    "id": 54,
-    "question": "Name a reason students use ChatGPT.",
-    "options": [
-      "Assignments",
-      "Doubt solving",
-      "Coding help",
-      "Quick explanation",
-      "Idea generation",
-      "Research"
-    ]
-  },
-  {
-    "id": 55,
-    "question": "Name a machine learning algorithm.",
-    "options": [
-      "Linear Regression",
-      "Decision Tree",
-      "KNN",
-      "SVM",
-      "Neural Network",
-      "Naive Bayes"
-    ]
-  },
-  {
-    "id": 56,
-    "question": "Name a reason people prefer online shopping.",
-    "options": [
-      "Convenience",
-      "Discounts",
-      "Variety",
-      "Home delivery",
-      "Easy return",
-      "Time saving"
-    ]
-  },
-  {
-    "id": 57,
     "question": "Name a reason online payments fail.",
     "options": [
       "Network issue",
       "Bank server down",
       "OTP delay",
       "App crash",
-      "Insufficient balance",
-      "Wrong details"
+      "Wrong PIN",
+      "Low signal"
     ]
   },
   {
-    "id": 58,
-    "question": "Name a reason people set phone passwords.",
-    "options": [
-      "Privacy",
-      "Security",
-      "Protect data",
-      "Prevent misuse",
-      "Personal safety",
-      "Child safety"
-    ]
-  },
-  {
-    "id": 59,
-    "question": "Name a reason people change passwords.",
-    "options": [
-      "Security breach",
-      "Forgot old",
-      "App reminder",
-      "Suspicious activity",
-      "Privacy concerns",
-      "Regular update"
-    ]
-  },
-  {
-    "id": 60,
-    "question": "Name an operating system.",
-    "options": [
-      "Windows",
-      "Linux",
-      "macOS",
-      "Android",
-      "iOS",
-      "Unix"
-    ]
-  },
-  {
-    "id": 61,
-    "question": "Name something people worry about online.",
-    "options": [
-      "Hacking",
-      "Data leak",
-      "Privacy",
-      "Scams",
-      "Identity theft",
-      "Cyberbullying"
-    ]
-  },
-  {
-    "id": 62,
+    "id": 27,
     "question": "Name a reason people use VPN.",
     "options": [
       "Privacy",
       "Access restricted content",
       "Security",
-      "Hide IP",
       "Safe browsing",
-      "Bypass censorship"
+      "Secure Wi-Fi",
+      "Hide location"
     ]
   },
   {
-    "id": 63,
-    "question": "Name a reason people buy wireless earphones.",
-    "options": [
-      "No wires",
-      "Convenience",
-      "Style",
-      "Portability",
-      "Better sound",
-      "Easy connectivity"
-    ]
-  },
-  {
-    "id": 64,
-    "question": "Name something people post on Instagram.",
-    "options": [
-      "Selfies",
-      "Reels",
-      "Stories",
-      "Photos",
-      "Achievements",
-      "Travel pics"
-    ]
-  },
-  {
-    "id": 65,
-    "question": "Name a cloud service provider.",
-    "options": [
-      "AWS",
-      "Azure",
-      "Google Cloud",
-      "IBM Cloud",
-      "Oracle Cloud",
-      "Alibaba Cloud"
-    ]
-  },
-  {
-    "id": 66,
-    "question": "Name a reason people follow tech influencers.",
-    "options": [
-      "Tech reviews",
-      "Latest updates",
-      "Buying advice",
-      "Comparisons",
-      "Trends",
-      "Unboxing"
-    ]
-  },
-  {
-    "id": 67,
-    "question": "Name a reason people back up data.",
+    "id": 28,
+    "question": "Name a reason people back up their data.",
     "options": [
       "Safety",
       "Phone loss",
       "System crash",
-      "Storage change",
       "Upgrade device",
-      "Virus attack"
+      "Safe files",
+      "Device reset"
     ]
   },
   {
-    "id": 68,
+    "id": 29,
     "question": "Name something students forget during offline exams.",
     "options": [
       "ID card",
       "Pen",
       "Calculator",
-      "Hall ticket",
       "Admit card",
-      "Geometry box"
+      "Water bottle",
+      "Hall ticket"
     ]
   },
   {
-    "id": 69,
-    "question": "Name a reason people avoid public Wi-Fi.",
-    "options": [
-      "Security risk",
-      "Hacking fear",
-      "Data theft",
-      "Slow speed",
-      "Privacy concerns",
-      "Malware risk"
-    ]
-  },
-  {
-    "id": 70,
-    "question": "Name a popular Linux distribution.",
-    "options": [
-      "Ubuntu",
-      "Fedora",
-      "Debian",
-      "Kali Linux",
-      "Arch Linux",
-      "CentOS"
-    ]
-  },
-  {
-    "id": 71,
-    "question": "Name something people don’t share online.",
-    "options": [
-      "Passwords",
-      "OTP",
-      "Bank details",
-      "Personal documents",
-      "PIN",
-      "Private photos"
-    ]
-  },
-  {
-    "id": 72,
-    "question": "Name a reason people use AI tools daily.",
-    "options": [
-      "Save time",
-      "Quick answers",
-      "Assignment help",
-      "Idea generation",
-      "Productivity",
-      "Automation"
-    ]
-  },
-  {
-    "id": 73,
-    "question": "Name a reason people log out from shared computers.",
-    "options": [
-      "Privacy",
-      "Security",
-      "Protect accounts",
-      "Prevent misuse",
-      "Avoid hacking",
-      "Data safety"
-    ]
-  },
-  {
-    "id": 74,
+    "id": 30,
     "question": "Name a reason people like smartwatches.",
     "options": [
       "Health tracking",
       "Notifications",
       "Convenience",
-      "Fitness monitoring",
+      "Step count",
       "Call alerts",
-      "Stylish look"
+      "Fitness"
     ]
   },
   {
-    "id": 75,
-    "question": "Name a database query language.",
+    "id": 31,
+    "question": "Name an operating system.",
     "options": [
-      "SQL",
-      "PL/SQL",
-      "T-SQL",
-      "MySQL",
-      "NoSQL",
-      "SQLite"
+      "Windows",
+      "Linux",
+      "Android",
+      "macOS",
+      "iOS",
+      "Ubuntu"
     ]
   },
   {
-    "id": 76,
-    "question": "Name a reason people use voice assistants.",
+    "id": 32,
+    "question": "Reason students like dark mode.",
     "options": [
-      "Hands-free",
-      "Quick search",
-      "Set reminders",
-      "Control devices",
-      "Play music",
-      "Send messages"
+      "Eye comfort",
+      "Saves battery",
+      "Less strain",
+      "Night usage",
+      "Looks cool",
+      "Better focus"
     ]
   },
   {
-    "id": 77,
-    "question": "Name a popular Indian digital payment app.",
+    "id": 33,
+    "question": "Name a tech skill for resume.",
     "options": [
-      "PhonePe",
-      "Google Pay",
-      "Paytm",
-      "BHIM",
-      "Amazon Pay",
-      "Cred"
+      "Programming",
+      "Web development",
+      "AI/ML",
+      "Cybersecurity",
+      "Data analysis",
+      "App development"
     ]
   },
   {
-    "id": 78,
-    "question": "Name a reason people prefer UPI in India.",
+    "id": 34,
+    "question": "Reason students join tech clubs.",
     "options": [
-      "Fast",
-      "Free",
-      "Easy",
-      "Secure",
-      "No wallet needed",
-      "Instant payment"
+      "Skill development",
+      "Experience",
+      "Leadership",
+      "Resume value",
+      "Networking",
+      "Exposure"
     ]
   },
   {
-    "id": 79,
-    "question": "Name a reason people trust UPI.",
+    "id": 35,
+    "question": "Name something people worry about online.",
     "options": [
-      "Bank linked",
-      "Secure PIN",
-      "Government backed",
-      "Instant transfer",
-      "Trusted apps",
-      "Encrypted system"
-    ]
-  },
-  {
-    "id": 80,
-    "question": "Name a concept used in AI.",
-    "options": [
-      "Machine Learning",
-      "Neural Networks",
-      "NLP",
-      "Deep Learning",
-      "Computer Vision",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "id": 81,
-    "question": "Name a famous Indian IT company.",
-    "options": [
-      "TCS",
-      "Infosys",
-      "Wipro",
-      "HCL",
-      "Tech Mahindra",
-      "L&T Infotech"
-    ]
-  },
-  {
-    "id": 82,
-    "question": "Name an Indian startup in tech sector.",
-    "options": [
-      "Ola",
-      "Swiggy",
-      "Zomato",
-      "Byju’s",
-      "Flipkart",
-      "Razorpay"
-    ]
-  },
-  {
-    "id": 83,
-    "question": "Name a sector where India is growing rapidly in tech.",
-    "options": [
-      "AI",
-      "Fintech",
-      "Startups",
-      "Space tech",
-      "IT services",
-      "EdTech"
-    ]
-  },
-  {
-    "id": 84,
-    "question": "Name something India became famous for in tech globally.",
-    "options": [
-      "IT services",
-      "Software engineers",
-      "Startups",
-      "Space missions",
-      "Outsourcing",
-      "Digital payments"
-    ]
-  },
-  {
-    "id": 85,
-    "question": "Name a tool used for API testing.",
-    "options": [
-      "Postman",
-      "Swagger",
-      "SoapUI",
-      "Insomnia",
-      "JMeter",
-      "REST Assured"
-    ]
-  },
-  {
-    "id": 86,
-    "question": "Name an Indian YouTube tech reviewer.",
-    "options": [
-      "Technical Guruji",
-      "Geeky Ranjit",
-      "Trakin Tech",
-      "Sharmaji Technical",
-      "Gyan Therapy",
-      "Beebom"
-    ]
-  },
-  {
-    "id": 87,
-    "question": "Name a popular Indian digital entertainment app.",
-    "options": [
-      "Hotstar",
-      "JioCinema",
-      "MX Player",
-      "SonyLIV",
-      "Zee5",
-      "Amazon Prime Video"
-    ]
-  },
-  {
-    "id": 88,
-    "question": "Name a networking model.",
-    "options": [
-      "OSI Model",
-      "TCP/IP Model",
-      "Application Layer",
-      "Transport Layer",
-      "Network Layer",
-      "Data Link Layer"
-    ]
-  },
-  {
-    "id": 89,
-    "question": "Name a mobile app development framework.",
-    "options": [
-      "Flutter",
-      "React Native",
-      "Swift",
-      "Kotlin",
-      "Xamarin",
-      "Ionic"
-    ]
-  },
-  {
-    "id": 90,
-    "question": "Name a DevOps tool.",
-    "options": [
-      "Jenkins",
-      "Docker",
-      "Kubernetes",
-      "Git",
-      "Ansible",
-      "Terraform"
-    ]
-  },
-  {
-    "id": 91,
-    "question": "Name a type of cybercrime.",
-    "options": [
-      "Identity theft",
-      "Phishing",
       "Hacking",
-      "Fraud",
-      "Cyberbullying",
-      "Online scams"
+      "Privacy",
+      "Scams",
+      "Identity theft",
+      "Fake news",
+      "Online abuse"
     ]
   },
   {
-    "id": 92,
-    "question": "Name a UI/UX design tool.",
+    "id": 36,
+    "question": "Name a feature students want improved in laptops.",
     "options": [
-      "Figma",
-      "Adobe XD",
-      "Sketch",
-      "Canva",
-      "InVision",
-      "Framer"
+      "Battery life",
+      "Performance",
+      "Faster speed",
+      "Storage",
+      "Better display",
+      "Weight"
     ]
   },
   {
-    "id": 93,
-    "question": "Name a type of server.",
+    "id": 37,
+    "question": "Name a reason students like collaborative coding.",
     "options": [
-      "Web server",
-      "Database server",
-      "Application server",
-      "File server",
-      "Mail server",
-      "Proxy server"
+      "Team learning",
+      "Faster solutions",
+      "Idea sharing",
+      "Debugging help",
+      "Learning from friends",
+      "Improves communication"
     ]
   },
   {
-    "id": 94,
-    "question": "Name a cloud storage service.",
+    "id": 38,
+    "question": "Name a reason students like short video tutorials.",
     "options": [
-      "Google Drive",
-      "Dropbox",
-      "OneDrive",
-      "iCloud",
-      "AWS S3",
-      "Mega"
+      "Quick learning",
+      "Saves time",
+      "Easy understanding",
+      "Revision",
+      "Focused content",
+      "Anytime access"
     ]
   },
   {
-    "id": 95,
-    "question": "Name an email protocol.",
+    "id": 39,
+    "question": "Name a tech issue during online interviews.",
     "options": [
-      "SMTP",
-      "POP3",
-      "IMAP",
-      "TLS",
-      "SSL",
-      "MAPI"
+      "Network lag",
+      "Mic issue",
+      "Camera problem",
+      "App crash",
+      "App freeze",
+      "Audio delay"
     ]
   },
   {
-    "id": 96,
-    "question": "Name a popular API format.",
-    "options": [
-      "JSON",
-      "XML",
-      "REST",
-      "SOAP",
-      "GraphQL",
-      "YAML"
-    ]
-  },
-  {
-    "id": 97,
+    "id": 40,
     "question": "Name a sorting algorithm.",
     "options": [
-      "Bubble Sort",
       "Quick Sort",
+      "Bubble Sort",
       "Merge Sort",
       "Insertion Sort",
       "Selection Sort",
@@ -1164,103 +480,55 @@
     ]
   },
   {
-    "id": 98,
-    "question": "Name a process state in OS.",
+    "id": 41,
+    "question": "Name a reason students use YouTube for study.",
     "options": [
-      "New",
-      "Ready",
-      "Running",
-      "Waiting",
-      "Terminated",
-      "Suspended"
+      "Free tutorials",
+      "Easy explanations",
+      "Visual learning",
+      "Exam preparation",
+      "Doubt solving",
+      "Practice help"
     ]
   },
   {
-    "id": 99,
-    "question": "Name a searching algorithm.",
+    "id": 42,
+    "question": "Name a reason students prefer typing notes.",
     "options": [
-      "Linear Search",
-      "Binary Search",
-      "DFS",
-      "BFS",
-      "Interpolation Search",
-      "Jump Search"
+      "Faster",
+      "Easy editing",
+      "Neatness",
+      "Easy sharing",
+      "Cloud backup",
+      "Organized notes"
     ]
   },
   {
-    "id": 100,
-    "question": "Name a testing technique.",
+    "id": 43,
+    "question": "Name a tech improvement students want in campus.",
     "options": [
-      "Unit Testing",
-      "Integration Testing",
-      "System Testing",
-      "Regression Testing",
-      "Black Box Testing",
-      "White Box Testing"
+      "Better Wi-Fi",
+      "Charging stations",
+      "Smart classrooms",
+      "Faster portals",
+      "More labs",
+      "Online forms"
     ]
   },
   {
-    "id": 101,
-    "question": "Name a tree traversal method.",
+    "id": 44,
+    "question": "Name a feature students check before installing apps.",
     "options": [
-      "Inorder",
-      "Preorder",
-      "Postorder",
-      "Level Order",
-      "Reverse Inorder",
-      "Zigzag"
+      "Ratings",
+      "Reviews",
+      "App size",
+      "Permissions",
+      "Downloads",
+      "Updates"
     ]
   },
   {
-    "id": 102,
-    "question": "Name a reason apps collect user data.",
-    "options": [
-      "Personalization",
-      "Ads",
-      "Analytics",
-      "Improve services",
-      "Verification",
-      "Recommendations"
-    ]
-  },
-  {
-    "id": 103,
-    "question": "Name a reason websites use HTTPS.",
-    "options": [
-      "Encryption",
-      "Security",
-      "Data protection",
-      "Prevent hacking",
-      "Secure transactions",
-      "Trust"
-    ]
-  },
-  {
-    "id": 104,
-    "question": "Name a background process that consumes battery.",
-    "options": [
-      "Background apps",
-      "Location services",
-      "Bluetooth",
-      "Wi-Fi scan",
-      "Notification sync",
-      "Auto updates"
-    ]
-  },
-  {
-    "id": 105,
-    "question": "Name a security risk installing third-party apps.",
-    "options": [
-      "Malware",
-      "Data theft",
-      "Spyware",
-      "Virus",
-      "Unauthorized access",
-      "Ransomware"
-    ]
-  },
-  {
-    "id": 106,
+    "id": 45,
     "question": "Name a type of IP address.",
     "options": [
       "IPv4",
@@ -1272,75 +540,423 @@
     ]
   },
   {
-    "id": 107,
-    "question": "Name a real-world ML application.",
+    "id": 46,
+    "question": "Name an app students open first after waking up.",
     "options": [
-      "Recommendation system",
-      "Face recognition",
-      "Spam detection",
-      "Voice assistant",
-      "Chatbot",
-      "Predictive text"
+      "Instagram",
+      "WhatsApp",
+      "Alarm",
+      "Snapchat",
+      "YouTube",
+      "Gmail"
     ]
   },
   {
-    "id": 108,
-    "question": "Name a type of phishing attack.",
+    "id": 47,
+    "question": "Name something people check before buying a phone.",
     "options": [
-      "Email phishing",
-      "Smishing",
-      "Spear phishing",
-      "Vishing",
-      "Fake website",
-      "Clone phishing"
+      "Price",
+      "Camera",
+      "Battery",
+      "Storage",
+      "Display",
+      "Performance"
     ]
   },
   {
-    "id": 109,
+    "id": 48,
+    "question": "Name an email protocol.",
+    "options": [
+      "SMTP",
+      "IMAP",
+      "POP3",
+      "SSL",
+      "TLS",
+      "HTTP"
+    ]
+  },
+  {
+    "id": 49,
+    "question": "Name a reason people panic when their phone is lost.",
+    "options": [
+      "Bank apps",
+      "Data",
+      "Personal chats",
+      "Photos",
+      "Social media accounts",
+      "Contacts"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Name a searching algorithm.",
+    "options": [
+      "Binary Search",
+      "Linear Search",
+      "DFS",
+      "BFS",
+      "Sequential Search",
+      "Fibonacci Search"
+    ]
+  },
+  {
+    "id": 51,
+    "question": "Name a browser students use.",
+    "options": [
+      "Google Chrome",
+      "Microsoft Edge",
+      "Brave",
+      "Firefox",
+      "Opera",
+      "Safari"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Name a reason apps collect user data.",
+    "options": [
+      "Login purpose",
+      "Save your settings",
+      "Improve the app",
+      "Better experience",
+      "Account creation",
+      "Security purposes"
+    ]
+  },
+  {
+    "id": 53,
+    "question": "Name a reason websites use HTTPS instead of HTTP.",
+    "options": [
+      "Security",
+      "Encryption",
+      "Data protection",
+      "Privacy",
+      "Secure transactions",
+      "Safe login"
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Name a background process that consumes battery.",
+    "options": [
+      "Running background apps",
+      "Location services",
+      "Mobile data",
+      "Bluetooth",
+      "Wi-Fi scanning",
+      "Notifications"
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Name a process state in operating system.",
+    "options": [
+      "Running",
+      "Ready",
+      "Waiting",
+      "New",
+      "Terminated",
+      "Blocked"
+    ]
+  },
+  {
+    "id": 56,
+    "question": "Name a reason people prefer messaging over email.",
+    "options": [
+      "Faster replies",
+      "Instant notifications",
+      "Quick response",
+      "Group chats",
+      "Easy to use",
+      "Informal communication"
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Name a reason students like open-source software.",
+    "options": [
+      "Free",
+      "Customizable",
+      "Helps in projects",
+      "Skill development",
+      "Simple to use",
+      "Easy access"
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Name a feature wanted in college portals.",
+    "options": [
+      "Updated info",
+      "Fast loading",
+      "Easy login",
+      "Notifications",
+      "Simple UI",
+      "Mobile friendly"
+    ]
+  },
+  {
+    "id": 59,
     "question": "Name a type of digital footprint.",
     "options": [
-      "Social posts",
+      "Social media posts",
       "Search history",
-      "Online transactions",
-      "Comments",
+      "Online forms filled",
       "Cookies",
-      "Location history"
+      "Location history",
+      "Email activity"
     ]
   },
   {
-    "id": 110,
+    "id": 60,
+    "question": "Name a reason people use voice assistants.",
+    "options": [
+      "Hands-free use",
+      "Quick search",
+      "Set reminders",
+      "Play music",
+      "Ask questions",
+      "Control devices"
+    ]
+  },
+  {
+    "id": 61,
+    "question": "Name a reason students avoid coding contests.",
+    "options": [
+      "Fear of failure",
+      "Low confidence",
+      "Lack of preparation",
+      "No practice",
+      "Tough questions",
+      "Time pressure"
+    ]
+  },
+  {
+    "id": 62,
+    "question": "Name a tech issue during presentations.",
+    "options": [
+      "Projector not working",
+      "Power problem",
+      "File not opening",
+      "HDMI issue",
+      "Laptop hang",
+      "Format issue"
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Which is the most used search engine in India?",
+    "options": [
+      "Google",
+      "Bing",
+      "Yahoo",
+      "DuckDuckGo",
+      "Baidu",
+      "Ecosia"
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Which is the most popular ride-booking app in India?",
+    "options": [
+      "Ola",
+      "Uber",
+      "Rapido",
+      "BluSmart",
+      "inDrive",
+      "Yulu"
+    ]
+  },
+  {
+    "id": 65,
+    "question": "Name a type of cybercrime.",
+    "options": [
+      "Hacking",
+      "Phishing",
+      "Identity theft",
+      "Online scam",
+      "Fraud",
+      "Cyberbullying"
+    ]
+  },
+  {
+    "id": 66,
     "question": "Name a password cracking tool.",
     "options": [
       "John the Ripper",
-      "L0phtCrack",
-      "THC Hydra",
       "Hashcat",
-      "Cain and Abel",
-      "Aircrack-ng"
+      "THC Hydra",
+      "Aircrack-ng",
+      "L0phtCrack",
+      "Cain & Abel"
     ]
   },
   {
-    "id": 111,
+    "id": 67,
+    "question": "Which is the most used web browser in India?",
+    "options": [
+      "Google Chrome",
+      "Safari",
+      "Microsoft Edge",
+      "Mozilla Firefox",
+      "Opera",
+      "Brave"
+    ]
+  },
+  {
+    "id": 68,
+    "question": "Which is the most popular music streaming app in India?",
+    "options": [
+      "Spotify",
+      "JioSaavn",
+      "Gaana",
+      "Apple Music",
+      "YouTube Music",
+      "Wynk Music"
+    ]
+  },
+  {
+    "id": 69,
+    "question": "Name a tech issue during hackathons.",
+    "options": [
+      "Internet problem",
+      "Lack of time",
+      "System crash",
+      "Software errors",
+      "Team coordination",
+      "Power issue"
+    ]
+  },
+  {
+    "id": 70,
+    "question": "Name a tech issue during file uploads.",
+    "options": [
+      "Slow internet",
+      "File size limit",
+      "Upload failure",
+      "Timeout",
+      "Format issue",
+      "Server error"
+    ]
+  },
+  {
+    "id": 71,
+    "question": "Name a method hackers use to steal credentials.",
+    "options": [
+      "Phishing",
+      "Brute force attack",
+      "Keylogging",
+      "Man-in-the-middle attack",
+      "Fake login page",
+      "Email spoofing"
+    ]
+  },
+  {
+    "id": 72,
     "question": "Name a common type of malware.",
     "options": [
       "Virus",
       "Trojan",
+      "Ransomware",
       "Worm",
       "Spyware",
-      "Adware",
-      "Ransomware"
+      "Adware"
     ]
   },
   {
-    "id": 112,
-    "question": "Name a method hackers use to steal credentials.",
+    "id": 73,
+    "question": "Which is the most popular food delivery app in India?",
     "options": [
-      "Phishing",
-      "Keylogging",
-      "Brute force",
-      "Social engineering",
-      "Fake login page",
-      "Credential stuffing"
+      "Swiggy",
+      "Zomato",
+      "Uber Eats",
+      "Blinkit",
+      "Zepto",
+      "Domino’s App"
+    ]
+  },
+  {
+    "id": 74,
+    "question": "Which is the most popular laptop brand in India?",
+    "options": [
+      "HP",
+      "Dell",
+      "Lenovo",
+      "Apple",
+      "Asus",
+      "Acer"
+    ]
+  },
+  {
+    "id": 75,
+    "question": "Which is the most followed sportsperson in India?",
+    "options": [
+      "Virat Kohli",
+      "MS Dhoni",
+      "Rohit Sharma",
+      "Hardik Pandya",
+      "PV Sindhu",
+      "Neeraj Chopra"
+    ]
+  },
+  {
+    "id": 76,
+    "question": "Name a type of phishing attack.",
+    "options": [
+      "Email phishing",
+      "SMS phishing (Smishing)",
+      "Spear phishing",
+      "Fake website phishing",
+      "Voice phishing",
+      "Social media phishing"
+    ]
+  },
+  {
+    "id": 77,
+    "question": "Name a security risk while installing third-party apps.",
+    "options": [
+      "Malware",
+      "Data theft",
+      "Spyware",
+      "Unauthorized access",
+      "Viruses",
+      "Hacking"
+    ]
+  },
+  {
+    "id": 78,
+    "question": "Name a cloud service provider.",
+    "options": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud",
+      "Oracle Cloud",
+      "IBM Cloud",
+      "DigitalOcean"
+    ]
+  },
+  {
+    "id": 79,
+    "question": "Which is the most used AI chatbot in 2026?",
+    "options": [
+      "ChatGPT",
+      "Google Gemini",
+      "Microsoft Copilot",
+      "Claude",
+      "Meta AI",
+      "Perplexity AI"
+    ]
+  },
+  {
+    "id": 80,
+    "question": "Which is the most used video calling app?",
+    "options": [
+      "WhatsApp",
+      "Zoom",
+      "Google Meet",
+      "Microsoft Teams",
+      "Skype",
+      "FaceTime"
     ]
   }
 ]
