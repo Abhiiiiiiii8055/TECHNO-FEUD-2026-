@@ -31,23 +31,12 @@ const flipAllBtn = document.getElementById('flip-all-btn');
  */
 async function init() {
     try {
-        // Load both JSON files in parallel
-        const [easyRes, hardRes] = await Promise.all([
-            fetch('easyqustion.json'),
-            fetch('hardqustion.json')
-        ]);
+        // Load the single combined questions file
+        const response = await fetch('questions.json');
 
-        if (!easyRes.ok || !hardRes.ok) throw new Error('Network response was not ok');
+        if (!response.ok) throw new Error('Network response was not ok');
 
-        const easyQuestions = await easyRes.json();
-        const hardQuestions = await hardRes.json();
-
-        // MERGING: Combine easy and hard questions into one list
-        // RE-INDEXING: Assign new sequential IDs to ensure strict ordering
-        questions = [...easyQuestions, ...hardQuestions].map((q, index) => ({
-            ...q,
-            id: index + 1 // Overwrite original ID with new sequential ID
-        }));
+        questions = await response.json();
 
         renderQuestion();
         setupEventListeners();
@@ -70,11 +59,21 @@ async function renderQuestion() {
 
     // Visual Transition: Start fade-out
     questionText.classList.add('fade-out');
+    const roundIndicator = document.getElementById('round-indicator');
+    if (roundIndicator) roundIndicator.classList.add('fade-out');
+
 
     setTimeout(() => {
         // Update the main question display
         questionText.textContent = question.question;
         questionText.classList.remove('fade-out');
+        
+        // Update Round Indicator
+        if (roundIndicator) {
+            const roundNumber = Math.floor(currentQuestionIndex / 5) + 1;
+            roundIndicator.textContent = `Round ${roundNumber}`;
+            roundIndicator.classList.remove('fade-out');
+        }
 
         // Reset the grid for the new set of options
         optionsGrid.innerHTML = '';
@@ -152,10 +151,23 @@ function setupEventListeners() {
         });
     });
 
-    // Keyboard support for faster navigation
+    // Keyboard support for faster navigation and revealing answers
     document.addEventListener('keydown', (e) => {
         if (e.key === 'ArrowRight' && !nextBtn.disabled) nextBtn.click();
         if (e.key === 'ArrowLeft' && !prevBtn.disabled) prevBtn.click();
+
+        // Handle number keys 1-9
+        if (e.key >= '1' && e.key <= '9') {
+            const index = parseInt(e.key) - 1;
+            const cards = document.querySelectorAll('.option-card');
+            
+            if (cards[index]) {
+                cards[index].classList.toggle('revealed');
+                if ('vibrate' in navigator && cards[index].classList.contains('revealed')) {
+                    navigator.vibrate(50); // Haptic feedback
+                }
+            }
+        }
     });
 }
 
