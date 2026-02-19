@@ -958,5 +958,390 @@
       "Skype",
       "FaceTime"
     ]
+  },
+  {
+    "id": 81,
+    "question": "Name a mobile app development framework.",
+    "options": [
+      "Flutter",
+      "React Native",
+      "Xamarin",
+      "Ionic",
+      "Kotlin Multiplatform",
+      "Unity"
+    ]
+  },
+  {
+    "id": 82,
+    "question": "Name a DevOps tool.",
+    "options": [
+      "Docker",
+      "Jenkins",
+      "Kubernetes",
+      "Terraform",
+      "Ansible",
+      "GitLab CI/CD"
+    ]
+  },
+  {
+    "id": 83,
+    "question": "Name a UI/UX design tool.",
+    "options": [
+      "Figma",
+      "Adobe XD",
+      "Sketch",
+      "Photoshop",
+      "Canva",
+      "InVision"
+    ]
+  },
+  {
+    "id": 84,
+    "question": "Name a type of server.",
+    "options": [
+      "Web Server",
+      "Database Server",
+      "Application Server",
+      "Mail Server",
+      "Proxy Server",
+      "File Server"
+    ]
+  },
+  {
+    "id": 85,
+    "question": "Name a backend programming language.",
+    "options": [
+      "Java",
+      "Python",
+      "PHP",
+      "C#",
+      "Node.js",
+      "Ruby"
+    ]
+  },
+  {
+    "id": 86,
+    "question": "Name a reason a laptop becomes slow.",
+    "options": [
+      "Low RAM",
+      "Virus",
+      "Storage full",
+      "Old hardware",
+      "Too many apps",
+      "Overheating"
+    ]
+  },
+  {
+    "id": 87,
+    "question": "Name an app that wastes the most time.",
+    "options": [
+      "Instagram",
+      "YouTube",
+      "Games",
+      "Snapchat",
+      "Facebook",
+      "OTT apps"
+    ]
+  },
+  {
+    "id": 88,
+    "question": "Name a top tech company in India.",
+    "options": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "HCLTech",
+      "Reliance Jio",
+      "Zoho"
+    ]
+  },
+  {
+    "id": 88,
+    "question": "Name a programming language used for web development.",
+    "options": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "Python",
+      "Java"
+    ]
+  },
+  {
+    "id": 89,
+    "question": "Name a feature students check before buying a laptop.",
+    "options": [
+      "Price",
+      "RAM",
+      "Processor",
+      "Storage",
+      "Battery life",
+      "Brand"
+    ]
+  },
+  {
+    "id": 90,
+    "question": "Bad habits students should leave.",
+    "options": [
+      "Wasting time on reels",
+      "Copy-paste assignments",
+      "Excessive gaming",
+      "Avoiding tough tasks",
+      "Not attending classes",
+      "Skipping sleep"
+    ]
+  },
+  {
+    "id": 91,
+    "question": "Why do students prefer using automatic tools?",
+    "options": [
+      "Saves time",
+      "Reduces effort",
+      "Increases productivity",
+      "Fast results",
+      "Minimizes errors",
+      "Easy work"
+    ]
+  },
+  {
+    "id": 92,
+    "question": "Name a tech issue during data transfer.",
+    "options": [
+      "Slow speed",
+      "Connection loss",
+      "File corruption",
+      "Storage full",
+      "Device error",
+      "Slow cable"
+    ]
+  },
+  {
+    "id": 93,
+    "question": "Name something people Google every day.",
+    "options": [
+      "Answers",
+      "News",
+      "Definitions",
+      "Locations",
+      "Weather",
+      "Results"
+    ]
+  },
+  {
+    "id": 94,
+    "question": "Name a reason people prefer online shopping.",
+    "options": [
+      "Convenience",
+      "Discounts",
+      "Variety",
+      "Home delivery",
+      "Easy payment",
+      "Reviews"
+    ]
+  },
+  {
+    "id": 95,
+    "question": "Name a reason people set phone passwords.",
+    "options": [
+      "Security",
+      "Privacy",
+      "Protect data",
+      "Prevent misuse",
+      "Safety",
+      "Lock apps"
+    ]
+  },
+  {
+    "id": 96,
+    "question": "Name a reason people change passwords.",
+    "options": [
+      "Forgot old one",
+      "Weak password",
+      "Account hacked",
+      "Suspicious activity",
+      "Security update",
+      "Safety reason"
+    ]
+  },
+  {
+    "id": 97,
+    "question": "Name something people don’t share online.",
+    "options": [
+      "Passwords",
+      "OTP",
+      "Bank details",
+      "Personal info",
+      "Address",
+      "ID proof"
+    ]
+  },
+  {
+    "id": 98,
+    "question": "Name a reason people log out from shared computers.",
+    "options": [
+      "Privacy",
+      "Security",
+      "Protect accounts",
+      "Protect data",
+      "Safe login",
+      "Prevent misuse"
+    ]
+  },
+  {
+    "id": 99,
+    "question": "Name a reason people buy wireless earphones.",
+    "options": [
+      "No wires",
+      "Convenience",
+      "Style",
+      "Portability",
+      "Easy carry",
+      "Comfortable"
+    ]
+  },
+  {
+    "id": 100,
+    "question": "Name a reason people follow tech influencers.",
+    "options": [
+      "Tech reviews",
+      "Latest updates",
+      "Buying advice",
+      "Comparisons",
+      "Reviews",
+      "New gadgets"
+    ]
+  },
+  {
+    "id": 101,
+    "question": "Name a popular Indian digital payment app.",
+    "options": [
+      "Google Pay",
+      "PhonePe",
+      "Paytm",
+      "BHIM",
+      "Amazon Pay",
+      "PayZapp"
+    ]
+  },
+  {
+    "id": 102,
+    "question": "Name a reason people prefer UPI in India.",
+    "options": [
+      "Fast",
+      "Free",
+      "Easy to use",
+      "Secure",
+      "Instant",
+      "Simple"
+    ]
+  },
+  {
+    "id": 103,
+    "question": "Name a reason people trust UPI.",
+    "options": [
+      "Bank linked",
+      "Secure PIN",
+      "Instant transfer",
+      "Trusted apps",
+      "Secure system",
+      "RBI support"
+    ]
+  },
+  {
+    "id": 104,
+    "question": "Name a famous Indian IT company.",
+    "options": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Tech Mahindra",
+      "L&T Infotech"
+    ]
+  },
+  {
+    "id": 105,
+    "question": "Name a sector where India is growing rapidly in tech.",
+    "options": [
+      "AI",
+      "Fintech",
+      "Startups",
+      "IT services",
+      "EdTech",
+      "Robotics"
+    ]
+  },
+  {
+    "id": 106,
+    "question": "Name a YouTube tech reviewer channel.",
+    "options": [
+      "Technical Guruji",
+      "Geeky Ranjit",
+      "Trakin Tech",
+      "Sharmaji Technical",
+      "Unbox Therapy",
+      "Mrwhosetheboss"
+    ]
+  },
+  {
+    "id": 107,
+    "question": "Which is the most downloaded app in India?",
+    "options": [
+      "Instagram",
+      "WhatsApp",
+      "YouTube",
+      "Meesho",
+      "Flipkart",
+      "PhonePe"
+    ]
+  },
+  {
+    "id": 108,
+    "question": "Name a networking protocol.",
+    "options": [
+      "HTTP",
+      "HTTPS",
+      "TCP",
+      "UDP",
+      "FTP",
+      "SMTP"
+    ]
+  },
+  {
+    "id": 109,
+    "question": "Name a frontend JavaScript framework/library.",
+    "options": [
+      "React",
+      "Angular",
+      "Vue.js",
+      "Next.js",
+      "jQuery",
+      "Bootstrap"
+    ]
+  },
+  {
+    "id": 110,
+    "question": "Name a database query language.",
+    "options": [
+      "SQL",
+      "T-SQL",
+      "PL/SQL",
+      "SOQL",
+      "GraphQL",
+      "NoSQL"
+    ]
+  },
+  {
+    "id": 111,
+    "question": "Name a networking model.",
+    "options": [
+      "OSI Model",
+      "TCP/IP Model",
+      "Five-layer Internet Model",
+      "Client-Server Model",
+      "Peer-to-Peer Model",
+      "Hybrid Model"
+    ]
   }
+
 ]

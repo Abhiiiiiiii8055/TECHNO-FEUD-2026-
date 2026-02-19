@@ -70,8 +70,18 @@ async function renderQuestion() {
         
         // Update Round Indicator
         if (roundIndicator) {
-            const roundNumber = Math.floor(currentQuestionIndex / 5) + 1;
-            roundIndicator.textContent = `Round ${roundNumber}`;
+            let roundLabel;
+            if (currentQuestionIndex < 80) {
+                // Rounds 1-16: 5 questions each
+                roundLabel = `Round ${Math.floor(currentQuestionIndex / 5) + 1}`;
+            } else if (currentQuestionIndex < 87) {
+                // Round 17: 7 questions (indices 80 to 86)
+                roundLabel = `Round 17`;
+            } else {
+                // Any questions beyond that: Bonus Round
+                roundLabel = `Bonus Round`;
+            }
+            roundIndicator.textContent = roundLabel;
             roundIndicator.classList.remove('fade-out');
         }
 
